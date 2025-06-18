@@ -1,0 +1,40 @@
+.Navbar-main {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-self: center;
+    justify-items: start;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* max-width: 900px; */
+    height: 95px;
+    margin-top: -5px;
+}
+
+.WanderWise-Logo {
+    height: 100px;
+    width: 370px;
+}
+
+.Navbar-link {
+    /* border: 1px solid black; */
+    /* width: 150px; */
+    text-decoration: none;
+    color: rgb(94, 182, 253);
+}
+
+.Navbar-link:hover {
+    color: blue;
+}
+
+.main-links {
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 450px;
+    gap: 20px;
+
+}
+

@@ -12,6 +12,7 @@
     padding: 0 40px;
     /* position: relative is needed for the pseudo-element */
     position: sticky;
+    
 }
 
 .Navbar-main:after {

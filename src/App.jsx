@@ -7,6 +7,8 @@ import HeroSection from "./Hero-Section.jsx";
 import HeroImg from './Hero-Img.jsx';
 import HeroContent from "./Hero-Content.jsx";
 import InputSection from "./Input-Section.jsx";
+import ReviewsSection from './ReviewsSection.jsx';
+import TopDestinations from './TopDestinations.jsx';
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
           <HeroImg />
           <HeroSection />
           <InputSection />
+          {/* <TopDestinations/> */}
+          <ReviewsSection/>
         </div>
       </div>
     </>

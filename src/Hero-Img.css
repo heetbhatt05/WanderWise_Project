@@ -1,5 +1,6 @@
 .Hero-Image {
     overflow: hidden;
+    overlay:auto;
     width: 99vw;
     height: 100vh;
     /* Maintains aspect ratio */

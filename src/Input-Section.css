@@ -1,19 +1,24 @@
  .input-section-heading {
-    display: flex; 
-    flex-direction: column;               /* Enable flexbox */
-    align-items: center;          /* Center content vertically */
-    justify-content: center;      /* Center content horizontally */
-    /* border: 1px solid black; */
-    height: 220px;
-    width: 100vw;
-    font-size: 29px;
-}
+     display: flex;
+     flex-direction: column;
+     /* Enable flexbox */
+     align-items: center;
+     /* Center content vertically */
+     justify-content: center;
+     /* Center content horizontally */
+     /* border: 1px solid black; */
+     height: 220px;
+     width: 100vw;
+     font-size: 29px;
+     background: #fffef7;
 
-.input-section-heading-text2 {
-    font-size: 19px;
-    color: gray;
-}
- 
+ }
+
+ .input-section-heading-text2 {
+     font-size: 19px;
+     color: gray;
+ }
+
 
 
 
@@ -21,6 +26,8 @@
      justify-content: start;
      justify-items: center;
      margin-top: 0px;
+     background: #fffef7;
+
  }
 
 

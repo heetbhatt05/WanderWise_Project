@@ -12,6 +12,7 @@
     opacity: 0.9;
     filter: blur(0.5PX);
     display: block;
+    overlay: black;
     /* z-index: 0; */
 }
 

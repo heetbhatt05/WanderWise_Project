@@ -23,7 +23,7 @@ function App() {
           <HeroImg />
           <HeroSection />
           <InputSection />
-          {/* <TopDestinations/> */}
+          <TopDestinations/>
           <ReviewsSection/>
         </div>
       </div>

@@ -1,11 +1,20 @@
 .top-destinations {
   padding: 20px 0;
-  background: #f9f9f9;
+  background: #fffef7;
   text-align: center;
 }
 
+
+.top-destination-text1 {
+  font-size: 48px;
+}
+.top-destination-text2 {
+  font-size: 28px;
+}
+
 .container {
-  max-width: 800px;
+  max-width: 900px;
+  height: 925px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -31,22 +40,20 @@ p {
 .destination-row {
   display: flex;
   gap: 20px;
+  justify-content: space-between;
 }
 
 .destination-card {
   background: #fff;
-  border-radius: 8px;
+  border-radius: 2px;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 100%;
-}
-
-.tall {
-  height: 400px; /* Adjust height for vertical Brazil card */
+  width: calc(33.33% - 13.33px); /* Adjust for 3 cards in middle row */
+  flex-grow: 1;
 }
 
 .wide {
-  width: 100%; /* Full width for Turkey card */
+  width: 100%; /* Full width for Darjeeling */
 }
 
 .destination-image {
@@ -80,10 +87,7 @@ p {
   .destination-row {
     flex-direction: column;
   }
-  .tall {
-    height: 300px; /* Reduced height for mobile */
-  }
-  .wide {
+  .destination-card {
     width: 100%;
   }
   .destination-image {

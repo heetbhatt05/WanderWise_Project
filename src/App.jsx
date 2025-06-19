@@ -5,6 +5,7 @@ import './App.css'
 import Navbaar from "./Navbaar.jsx";
 import HeroSection from "./Hero-Section.jsx";
 import HeroImg from './Hero-Img.jsx';
+import HeroContent from "./Hero-Content.jsx";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <div>
         <div>
           <Navbaar />
+          <HeroContent />
           <HeroImg />
           <HeroSection />
         </div>

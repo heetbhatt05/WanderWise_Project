@@ -11,19 +11,28 @@
     /* margin-top: -5px; */
     /* border-bottom: 1px solid rgb(174, 174, 174); */
 }
+
 .Navbar-main {
-    background: transparent; /* Remove any background */
-    position: absolute;      /* Place it over the image */
+    background: transparent;
+    /* Remove any background */
+    position: absolute;
+    /* Place it over the image */
     top: 0;
     left: 0;
     width: 100vw;
     z-index: 2;
+    /* background-color: rgb(130, 130, 130); */
+    /* background: rgba(0, 0, 0, 0.2); */
+    /* Slight dark background */
+
 }
 
 .WanderWise-Logo {
     height: 100px;
     width: 370px;
     margin-top: 5px;
+
+
 }
 
 
@@ -49,4 +58,3 @@
     gap: 20px;
 
 }
-

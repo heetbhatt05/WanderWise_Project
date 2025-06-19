@@ -10,8 +10,8 @@
 .Hero-Img-Div {
     opacity: 0.9;
     filter: blur(0.5PX);
-    
     display: block;
+    /* z-index: 0; */
 }
 
 

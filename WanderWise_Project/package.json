@@ -1,4 +1,7 @@
 {
+<<<<<<< HEAD
+  "devDependencies": {
+=======
   "name": "wanderwise-project",
   "private": true,
   "version": "0.0.0",
@@ -22,6 +25,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
+>>>>>>> ad0a1001f0adb93581b04a1bb01142e5f1776051
     "vite": "^6.3.5"
   }
 }

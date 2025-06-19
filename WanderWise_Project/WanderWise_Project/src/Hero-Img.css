@@ -1,0 +1,16 @@
+.Hero-Image {
+    overflow: hidden;
+    width: 99vw;
+    height: 100vh;
+    /* Maintains aspect ratio */
+    /* display: block; */
+    position: relative;
+}
+
+.Hero-Img-Div {
+    opacity: 0.7;
+    
+    display: block;
+}
+
+

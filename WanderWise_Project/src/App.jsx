@@ -14,7 +14,7 @@ function App() {
     <>
       <div>
         <div>
-        <Navbaar />
+          <Navbaar />
           <HeroImg />
           <HeroSection />
         </div>

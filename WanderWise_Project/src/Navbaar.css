@@ -7,24 +7,36 @@
     align-items: center;
     width: 100%;
     /* max-width: 900px; */
-    height: 95px;
-    margin-top: -5px;
+    height: 106px;
+    /* margin-top: -5px; */
+    /* border-bottom: 1px solid rgb(174, 174, 174); */
+}
+.Navbar-main {
+    background: transparent; /* Remove any background */
+    position: absolute;      /* Place it over the image */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 2;
 }
 
 .WanderWise-Logo {
     height: 100px;
     width: 370px;
+    margin-top: 5px;
 }
+
+
 
 .Navbar-link {
     /* border: 1px solid black; */
     /* width: 150px; */
     text-decoration: none;
-    color: rgb(94, 182, 253);
+    color: white;
 }
 
 .Navbar-link:hover {
-    color: blue;
+    color: rgb(94, 182, 253);
 }
 
 .main-links {

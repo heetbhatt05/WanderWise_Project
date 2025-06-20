@@ -1,0 +1,97 @@
+.top-destinations {
+  padding: 40px 0;
+  background: #f5f7fa;
+  text-align: center;
+  width: 100%;
+}
+
+.top-destination-text1 {
+  font-size: 48px;
+  color: #1a2a44;
+  margin-bottom: 10px;
+}
+
+.top-destination-text2 {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%; /* Ensures container takes full available width */
+}
+
+.destinations-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+.destination-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* Centers cards and prevents uneven spacing */
+  width: 100%;
+}
+
+.destination-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 13.33px);
+  transition: transform 0.2s ease;
+  flex: 1 1 auto; /* Allows cards to grow and shrink evenly */
+}
+
+.destination-card:hover {
+  transform: translateY(-5px);
+}
+
+.wide {
+  width: 100%;
+}
+
+.destination-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.destination-card:hover .destination-image {
+  transform: scale(1.05);
+}
+
+.destination-info {
+  padding: 15px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 22px;
+  color: #1a2a44;
+  margin: 5px 0;
+}
+
+p {
+  font-size: 16px;
+  color: #777;
+}
+
+@media (max-width: 900px) {
+  .destination-row {
+    flex-direction: column;
+    align-items: stretch; /* Stretches cards to full width on mobile */
+  }
+  .destination-card {
+    width: 100%;
+  }
+  .destination-image {
+    height: 200px;
+  }
+}

@@ -1,0 +1,17 @@
+.btn1 {
+  height: 40px;
+  width: 130px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(to right, #ffd900, #ffea71);
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn1:hover {
+  background: #ffea71;
+  transform: translateY(-2px);
+}

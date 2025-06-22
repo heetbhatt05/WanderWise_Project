@@ -1,0 +1,78 @@
+.top-tourist-spots {
+  flex: 2;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.top-tourist-spots h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2c2c2c;
+}
+.spots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 20px;
+  .spots-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Creates as many columns as fit, with a minimum width of 200px */
+      gap: 10px; /* Optional: Add some space between the images */
+    }
+}
+.spot-card {
+  background: #f9f9f9;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+}
+.image-placeholder {
+  height: 180px;
+  overflow: hidden;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.spot-content {
+  padding: 15px;
+}
+.spot-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.spot-title strong {
+  text-transform: lowercase;
+}
+.time-tag {
+  background-color: #d7f5e6;
+  color: #2ca673;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.spot-content p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+.spot-content a {
+  font-size: 14px;
+  color: #3bb78f;
+  text-decoration: none;
+}
+.spot-content a i {
+  margin-right: 5px;
+}

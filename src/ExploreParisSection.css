@@ -1,0 +1,56 @@
+.explore-paris {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  height: 420px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.map-box {
+  background-color: #ccf3dd;
+  border-radius: 8px;
+  padding: 50px 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+.map-box .map-content i {
+  color: #3bb78f;
+}
+.map-box p {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.map-box span {
+  font-size: 13px;
+  color: #444;
+}
+.map-legend {
+  list-style: none;
+  font-size: 14px;
+  padding-left: 0;
+  color: #444;
+}
+.map-legend li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+.red { background: red; }
+.blue { background: #3b82f6; }
+.green { background: #10b981; }

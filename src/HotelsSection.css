@@ -1,0 +1,55 @@
+.container {
+  padding: 15px;
+}
+
+.hotels h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.hotel-cards {
+  display: grid;
+  gap: 15px;
+}
+
+.hotel-card {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.hotel-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.info h4 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+}
+
+.price-rating {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.tags {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #f0f0f0;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.9em;
+}

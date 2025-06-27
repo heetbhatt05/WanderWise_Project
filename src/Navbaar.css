@@ -41,3 +41,22 @@
 .Navbar-link:hover {
   color: #007bff;
 }
+
+
+@media (max-width: 768px) {
+  .Navbar-main {
+    padding: 0 20px;
+    height: 70px;
+  }
+  .WanderWise-Logo {
+    height: 45px;
+  }
+  .main-links {
+    gap: 15px;
+  }
+  .Navbar-link {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+}
+

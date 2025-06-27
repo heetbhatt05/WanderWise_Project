@@ -76,3 +76,22 @@
   color: #888;
   font-weight: 400;
 }
+
+
+
+@media (max-width: 1024px) {
+  .reviews-section {
+    padding: 40px 0 60px 0;
+  }
+  .reviews-cards {
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .review-card {
+    width: 300px;
+    padding: 22px 16px 18px 16px;
+  }
+}
+
+
+
